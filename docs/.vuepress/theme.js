@@ -24,8 +24,12 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'Config', link: '/Config/' },
-      { text: 'GitHub', link: 'https://github.com/langnang-temp/vuepress' },
+      { text: 'ICON', link: '/icon/' },
+      { text: 'CSS', link: '/css/' },
+      { text: 'JavaScript', link: '/javascript/' },
+      { text: 'UI', link: '/ui/' },
+      { text: 'PHP', link: '/php/' },
+      { text: 'GitHub', link: 'https://github.com/langnang-package/langnang-package' },
       {
         text: 'Vue', items: [
           { text: 'Vue', link: 'https://cn.vuejs.org/zh/' },
