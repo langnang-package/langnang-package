@@ -5,6 +5,11 @@
 - `TODO` Table 表格
 - `TODO` Form 表单
   - `TODO` Input 输入框
+    - `TODO` Input:radio 单选框
+    - `TODO` Input:checkbox 多选框
+  - `TODO` Select 下拉框
+  - `TODO` TextArea 文本输入框
+  - `TODO` Range 输入区间
 - `TODO` Button 按钮
 - `TODO` Label 标签
 - `TODO` List 列表
