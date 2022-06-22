@@ -1,5 +1,7 @@
 # CSS
 
+[initialize](./initialize)
+
 ## Elements
 
 - `TODO` Table 表格
@@ -14,10 +16,13 @@
 - `TODO` Label 标签
 - `TODO` List 列表
 
+## Layout
+
+- [ ] Grid 栅格布局
+- [ ] Flex flex 布局
+
 ## Utils
 
-- `TODO` Grid 栅格布局
-- `TODO` Flex flex 布局
 - `TODO` Border 边框
 - `TODO` Clearfix 清除浮动
 - `TODO` Close 关闭按钮

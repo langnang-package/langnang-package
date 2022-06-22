@@ -54,7 +54,6 @@
 - `TODO` `Array.prototype.entries()`
 - `TODO` `Array.prototype.flat()`
 - `TODO` `Array.prototype.flatMap()`
-
 - `TODO` `ArrayFrom()` `Array.from()`
 - `TODO` `ArrayIs()` `Array.isArray()`
 - `TODO` `ArrayOf()` `Array.of()`
@@ -153,7 +152,6 @@
 - `TODO` `apply(thisArg, [argsArray])` `Function.prototype.apply(thisArg, [argsArray])`
 - `TODO` `bind(thisArg, ...args)` `Function.prototype.bind(thisArg, ...args)`
 - `TODO` `call(thisArg, ...args)` `Function.prototype.call(thisArg, ...args)`
-
 - `TODO` `ajax(option)` 异步 JavaScript 和 XML
 - `TODO` `debounce()` 防抖：触发高频事件后 n 秒内函数只会执行一次，如果 n 秒内高频事件再次被触发，则重新计算时间
 - `TODO` `forEach(object, callback)` 从左向右遍历对象
