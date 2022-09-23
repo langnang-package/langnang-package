@@ -1,4 +1,3 @@
-
 module.exports = {
   /**
    * 当你使用自定义主题的时候，需要指定它。
@@ -22,31 +21,49 @@ module.exports = {
      * 导航栏链接
      */
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'ICON', link: '/icon/' },
-      { text: 'CSS', link: '/css/' },
-      { text: 'JavaScript', link: '/javascript/' },
-      { text: 'UI', link: '/ui/' },
-      { text: 'PHP', link: '/php/' },
-      { text: 'GitHub', link: 'https://github.com/langnang-package/langnang-package' },
+      { text: "Home", link: "/" },
+      { text: "Guide", link: "/guide/" },
+      // { text: "ICON", link: "/icon/" },
+      { text: "Function", link: "/function/" },
+      // { text: "CSS", link: "/css/" },
+      // { text: "JavaScript", link: "/javascript/" },
+      // { text: "UI", link: "/ui/" },
+      // { text: "PHP", link: "/php/" },
       {
-        text: 'Langnang', items: [
-          { text: 'Langnang', link: 'https://langnang.github.io/langnang' },
-          { text: 'Templates', link: 'https://langnang-temp.github.io/langnang-temp' },
-          { text: 'Packages', link: 'https://langnang-package.github.io/langnang-package' },
-        ]
+        text: "GitHub",
+        link: "https://github.com/langnang-package/langnang-package",
       },
       {
-        text: 'Vue', items: [
-          { text: 'Vue', link: 'https://cn.vuejs.org/zh/' },
-          { text: 'Vue Router', link: 'https://router.vuejs.org/zh/' },
-          { text: 'Vuex', link: 'https://vuex.vuejs.org/zh/' },
-          { text: 'VuePress', link: 'https://vuepress.vuejs.org/zh/' },
-          { text: 'Awesome VuePress', link: 'https://github.com/vuepress/awesome-vuepress' },
-          { text: 'Vuepress Community', link: 'https://vuepress-community.netlify.app/zh/' },
-        ]
-      }
+        text: "Langnang",
+        items: [
+          { text: "Langnang", link: "https://langnang.github.io/langnang" },
+          {
+            text: "Templates",
+            link: "https://langnang-temp.github.io/langnang-temp",
+          },
+          {
+            text: "Packages",
+            link: "https://langnang-package.github.io/langnang-package",
+          },
+        ],
+      },
+      {
+        text: "Vue",
+        items: [
+          { text: "Vue", link: "https://cn.vuejs.org/zh/" },
+          { text: "Vue Router", link: "https://router.vuejs.org/zh/" },
+          { text: "Vuex", link: "https://vuex.vuejs.org/zh/" },
+          { text: "VuePress", link: "https://vuepress.vuejs.org/zh/" },
+          {
+            text: "Awesome VuePress",
+            link: "https://github.com/vuepress/awesome-vuepress",
+          },
+          {
+            text: "Vuepress Community",
+            link: "https://vuepress-community.netlify.app/zh/",
+          },
+        ],
+      },
     ],
     /**
      * 侧边栏
@@ -54,12 +71,12 @@ module.exports = {
      * @type Array | Object
      * @default undefined
      */
-    sidebar: 'auto'
+    sidebar: "auto",
   },
   /**
    * 你可以通过 themeConfig.lastUpdated 选项来获取每个文件最后一次 git 提交的 UNIX 时间戳(ms)，同时它将以合适的日期格式显示在每一页的底部：
    * @type String|Boolean
    * @default undefined
    */
-  lastUpdated: 'Last Updated',
-}
+  lastUpdated: "Last Updated",
+};
