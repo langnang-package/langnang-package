@@ -21,26 +21,14 @@
 `array.prototype.entries()`返回一个数组迭代器对象，该迭代器会包含所有数组元素的键值对。
 `array_count_by(array, fn)`根据函数统计数组中值出现的次数
 `array_every()`
-`array_flatten(array[, depth = 0])`展平数组到指定深度
 `array_index_of(array, search_element[, from_index))`返回数组中第一个与指定值相等的元素的索引，如果找不到这样的元素，则返回 --
 `array_last_index_of(array, search_element[, from_index = arr.length)`返回数组中最后一个（从右边数第一个）与指定值相等的元素的索引，如果找不到这样的元素，则返回 -1
-`array_map(array, callback(element[, index[, array]])[, this_arg])`返回一个由回调函数的返回值组成的新数组。
-`array_pop(array)`删除数组的最后一个元素，并返回这个元素。
-`array_push(array, element..., element_n)`在数组的末尾增加一个或多个元素，并返回数组的新长度。
 `array_reverse()`
-`array_some(array, callback(element[, index[, array]])[, this_arg])`如果数组中至少有一个元素满足测试函数，则返回 true，否则返回 false。
 `array_sort([compare_function(first_el,second_el)])`对数组元素进行排序，并返回当前数组。
-`array_splice(start[, delete_count[, item, item, ...]]]])`在任意的位置给数组添加或删除任意个元素。
-`array_offset(array, offset)`将指定数量的元素移动到数组的末尾。
-`array_rest(array, n)`返回数组的后 n 个元素
-`array_reverse(array)`颠倒数组中元素的排列顺序，即原先的第一个变为最后一个，原先的最后一个变为第一个。
-`array_unshift(array, element..., element_n)`在数组的开头增加一个或多个元素，并返回数组的新长度。
-`array_values(array)`返回一个数组迭代器对象，该迭代器会包含所有数组元素的值。
 `is_array_every(array, callback(element[, index[, array]])[, this_arg])`如果数组中的每个元素都满足测试函数，则返回 true，否则返回 false。
 `is_array_every_equal(array)`检测数组的所有元素是否相等
 `is_array_none(array, fn)`检测数组的所有元素是否都不符合
 `is_array_some(array, fn)`检测数组的部分元素是否符合
-`is_array_sorted(array)`检测数组是否已排序。若为升序，返回 1 降序，返回-1 未排序，返回 0
 
 
 ## Date
@@ -109,7 +97,6 @@
 `factorial(number)`阶乘。所有小于及等于该数的正整数的积，并且 的阶乘为 自然数 n 的阶乘写作 n!。
 `euclidean_algorithm(a, b)`欧几里得算法。指用于计算两个非负整数 a，b 的最大公约数
 `areaof_circle(radius)`圆的面积
-`avg(...nums)`平均值
 `collatz(number)`\_collatz 算法
 `digitize(num)`将数字转换为数字数组
 `distance(x1, y1, x2, y2)`两点间的距离
