@@ -34,12 +34,7 @@
 ## Date
 
 `date(...args)`创建 \_date 对象
-`day(date)`月份中的第几天
-`day_of_week`周中的第几天
-`endof_day(date)`日期的最后一秒。-
-`first_dayof_month(date)`日期所在月的第一天
 `format(date, fm)`格式化日期世界
-`last_dayof_month(date)`日期所在月的最后一天
 `last_n_day(date)`日期前 \_n 天
 `monday(date)`日期所在周的周一
 `next_days(date, n)`指定日期后 \_n 天后
@@ -50,9 +45,8 @@
 `next_weeks(date, n)`指定日期的 \_n 周后
 `next_years(date, n)`指定日期的 \_n 年后
 `range`时间区段
-`start_of_day(date)`日期的第一秒。-
+`start_of_day(date)`日期的第一秒。
 `sunday(date)`日期所在周的周日
-`timeline(start, end)`返回起止时间中单位时间的连续时间数组
 `tomorrow(date)`日期的后一天
 `yesterday(date)`日期的前一天
 
@@ -68,9 +62,9 @@
 
 ## Function
 
-` apply(this_arg, [args_array])``function.prototype.apply(this_arg, [args_array]) `
-` bind(this_arg, ...args)``function.prototype.bind(this_arg, ...args) `
-` call(this_arg, ...args)``function.prototype.call(this_arg, ...args) `
+`apply(this_arg, [args_array])``function.prototype.apply(this_arg, [args_array])`
+`bind(this_arg, ...args)``function.prototype.bind(this_arg, ...args)`
+`call(this_arg, ...args)``function.prototype.call(this_arg, ...args)`
 `ajax(option)`异步 Java_script 和 X_m_l
 `debounce()`防抖触发高频事件后 n 秒内函数只会执行一次，如果 n 秒内高频事件再次被触发，则重新计算时间
 `for_each(object, callback)`从左向右遍历对象
@@ -78,7 +72,7 @@
 `for_each_right_array(object, callback)`从右向左遍历数组
 `query()`元素选择器
 `query_all()`元素选择器
-`s__wap(a, b)`交换两个元素的值
+`swap(a, b)`交换两个元素的值
 `throttle()`节流高频事件触发，但在 n 秒内只会执行一次，所以节流会稀释函数的执行频率
 `time_taken(fn, ...args)`测量执行函数所用的时间
 `copy`拷贝，浅拷贝
@@ -98,38 +92,26 @@
 `is_finite(number)`检测无穷大
 `is_integer(number)`检测整数
 `is_leap_year(number)`检测闰年
-`is_na_n(number)`检测非数值
 `is_odd(number)`检测奇数
 `is_safe_integer(number)`检测安全整数
 `leap_years(start_year, end_year)`返回范围内的所有闰年
-`max(...nums)`最大值
-`min(...nums)`最小值
 `PI()`圆周率
-`random_int(max = 1, min = 0)`随机整数
-`random_float(max = 1, min = 0)`随机数值
-`sum(...nums)`总值
 `thousands_separator(num)`千位分隔符
 
 ## Mobile
 
-`mobile_type()`返回手机系统类型。\_android，\_i_o_s；
 
 ## Number
 
-`is_number(obj)`检测数值
+`is_nan(number)`检测非数值
 
 ## Object
 
 `extend(target, parent)`混合属性到目标对象
-`is_bro_wser`检测浏览器环境
-`is_date(obj)`检测对象是否为日期时间
-`is_defined(obj)`检测对象是否已定义
+`is_browser`检测浏览器环境
 `is_dom()`检测对象是否是 DOM
 `is_function(obj)`检测对象是否是函数
-`is_object(obj)`检测对象
 `is_reg_exp(obj)`检测正则表达式
-`is_symbol(obj)`检测 Symbol
-`is_undefined(obj)`检测 Undefined
 `stringify(json)`JSON 转字符串
 
 
@@ -143,7 +125,6 @@
 
 `capitalize()`将字符串的第一个字母大写
 `capitalize_every_word()`将字符串中每个单词的首字母大写
-`hex_to_rgba()`hex 十六进制颜色转 rgb 颜色。
 `is_palindrome(string)`检测回文字符串
 `is_string_of_array(string)`检测字符串数组
 `is_string_of_boolean(string)`检测字符串布尔值
@@ -155,8 +136,6 @@
 `rate()`评分字符串星星
 `remove_duplicates(string)`移除字符串中所有相邻重复项
 `string_reverse(string)`翻转字符串
-`rgb_to_hex()`rgb 颜色转 hex 十六进制颜色。
 `sb()`S_b
 `string_to_json(string)`字符串转 J_s_o_n
 `url_params([url = __windo__w.location.hr)`返回当前 \_u_r_l 中的参数对象
-`uuid()`通用唯一识别码（\_universally \_unique \_identifier）
