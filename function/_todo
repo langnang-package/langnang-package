@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Function @Langnang/{Package} | Langnang Package</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="Welcome to Packages of Langnang">
+    
+    <link rel="preload" href="/langnang-package/assets/css/0.styles.e827cbb8.css" as="style"><link rel="preload" href="/langnang-package/assets/js/app.d8e54a48.js" as="script"><link rel="preload" href="/langnang-package/assets/js/3.757739a0.js" as="script"><link rel="preload" href="/langnang-package/assets/js/15.9e205725.js" as="script"><link rel="prefetch" href="/langnang-package/assets/js/10.2fc228b6.js"><link rel="prefetch" href="/langnang-package/assets/js/11.773735d5.js"><link rel="prefetch" href="/langnang-package/assets/js/12.df8dfeca.js"><link rel="prefetch" href="/langnang-package/assets/js/13.82ed1846.js"><link rel="prefetch" href="/langnang-package/assets/js/14.2f074095.js"><link rel="prefetch" href="/langnang-package/assets/js/16.4cdb85d5.js"><link rel="prefetch" href="/langnang-package/assets/js/17.3a4aac83.js"><link rel="prefetch" href="/langnang-package/assets/js/18.2fe67a27.js"><link rel="prefetch" href="/langnang-package/assets/js/19.5883a759.js"><link rel="prefetch" href="/langnang-package/assets/js/20.71a1267d.js"><link rel="prefetch" href="/langnang-package/assets/js/21.156dbc7e.js"><link rel="prefetch" href="/langnang-package/assets/js/22.0b906339.js"><link rel="prefetch" href="/langnang-package/assets/js/23.7ae04cea.js"><link rel="prefetch" href="/langnang-package/assets/js/24.64a2b306.js"><link rel="prefetch" href="/langnang-package/assets/js/25.ef924e78.js"><link rel="prefetch" href="/langnang-package/assets/js/26.678b86cf.js"><link rel="prefetch" href="/langnang-package/assets/js/27.64602c3f.js"><link rel="prefetch" href="/langnang-package/assets/js/28.768f6fea.js"><link rel="prefetch" href="/langnang-package/assets/js/29.7e3e45f5.js"><link rel="prefetch" href="/langnang-package/assets/js/30.ab2bfcf7.js"><link rel="prefetch" href="/langnang-package/assets/js/31.27abd43c.js"><link rel="prefetch" href="/langnang-package/assets/js/32.ff69eba6.js"><link rel="prefetch" href="/langnang-package/assets/js/33.a80a7691.js"><link rel="prefetch" href="/langnang-package/assets/js/34.09645332.js"><link rel="prefetch" href="/langnang-package/assets/js/35.52c20cb1.js"><link rel="prefetch" href="/langnang-package/assets/js/36.8f611ffc.js"><link rel="prefetch" href="/langnang-package/assets/js/37.cb30c69c.js"><link rel="prefetch" href="/langnang-package/assets/js/38.0df591fb.js"><link rel="prefetch" href="/langnang-package/assets/js/39.a5dbc63c.js"><link rel="prefetch" href="/langnang-package/assets/js/4.8f293769.js"><link rel="prefetch" href="/langnang-package/assets/js/40.80a18558.js"><link rel="prefetch" href="/langnang-package/assets/js/41.547ceb85.js"><link rel="prefetch" href="/langnang-package/assets/js/42.98735f52.js"><link rel="prefetch" href="/langnang-package/assets/js/43.1b74793a.js"><link rel="prefetch" href="/langnang-package/assets/js/44.3e547268.js"><link rel="prefetch" href="/langnang-package/assets/js/45.c4774cbd.js"><link rel="prefetch" href="/langnang-package/assets/js/46.49714295.js"><link rel="prefetch" href="/langnang-package/assets/js/47.01f8b0a8.js"><link rel="prefetch" href="/langnang-package/assets/js/48.7d6f7eb6.js"><link rel="prefetch" href="/langnang-package/assets/js/49.e840c9c1.js"><link rel="prefetch" href="/langnang-package/assets/js/5.8fa841d7.js"><link rel="prefetch" href="/langnang-package/assets/js/50.7e3f7ce1.js"><link rel="prefetch" href="/langnang-package/assets/js/51.00a251eb.js"><link rel="prefetch" href="/langnang-package/assets/js/52.f11acc60.js"><link rel="prefetch" href="/langnang-package/assets/js/53.0e9f740d.js"><link rel="prefetch" href="/langnang-package/assets/js/54.4a7f5e09.js"><link rel="prefetch" href="/langnang-package/assets/js/55.6a8fafad.js"><link rel="prefetch" href="/langnang-package/assets/js/56.1a7d2f0f.js"><link rel="prefetch" href="/langnang-package/assets/js/57.44754711.js"><link rel="prefetch" href="/langnang-package/assets/js/58.2d4211f5.js"><link rel="prefetch" href="/langnang-package/assets/js/59.a0b663ee.js"><link rel="prefetch" href="/langnang-package/assets/js/6.657b6e84.js"><link rel="prefetch" href="/langnang-package/assets/js/60.027c8654.js"><link rel="prefetch" href="/langnang-package/assets/js/61.cd287bde.js"><link rel="prefetch" href="/langnang-package/assets/js/62.4e8e923c.js"><link rel="prefetch" href="/langnang-package/assets/js/63.e4189b32.js"><link rel="prefetch" href="/langnang-package/assets/js/64.452ff081.js"><link rel="prefetch" href="/langnang-package/assets/js/65.b6e28ecc.js"><link rel="prefetch" href="/langnang-package/assets/js/66.cd47256f.js"><link rel="prefetch" href="/langnang-package/assets/js/67.a805697d.js"><link rel="prefetch" href="/langnang-package/assets/js/68.03e956d0.js"><link rel="prefetch" href="/langnang-package/assets/js/69.5039d2ea.js"><link rel="prefetch" href="/langnang-package/assets/js/7.e07399ed.js"><link rel="prefetch" href="/langnang-package/assets/js/70.05266216.js"><link rel="prefetch" href="/langnang-package/assets/js/71.0a491ee9.js"><link rel="prefetch" href="/langnang-package/assets/js/72.2e44a8c3.js"><link rel="prefetch" href="/langnang-package/assets/js/73.07e57074.js"><link rel="prefetch" href="/langnang-package/assets/js/74.78e0cc1a.js"><link rel="prefetch" href="/langnang-package/assets/js/8.188bca0a.js"><link rel="prefetch" href="/langnang-package/assets/js/9.ccbca563.js"><link rel="prefetch" href="/langnang-package/assets/js/vendors~flowchart.ae19101f.js">
+    <link rel="stylesheet" href="/langnang-package/assets/css/0.styles.e827cbb8.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/langnang-package/" class="home-link router-link-active"><!----> <span class="site-name">Langnang Package</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/langnang-package/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/langnang-package/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/langnang-package/function/" class="nav-link router-link-active">
+  Function
+</a></div><div class="nav-item"><a href="https://github.com/langnang-package/langnang-package" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Langnang" class="dropdown-title"><span class="title">Langnang</span> <span class="arrow down"></span></button> <button type="button" aria-label="Langnang" class="mobile-dropdown-title"><span class="title">Langnang</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://langnang.github.io/langnang" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Langnang
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://langnang-temp.github.io/langnang-temp" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Templates
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://langnang-package.github.io/langnang-package" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Packages
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue" class="dropdown-title"><span class="title">Vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="Vue" class="mobile-dropdown-title"><span class="title">Vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://cn.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vue
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://router.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vue Router
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://vuex.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vuex
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/vuepress/awesome-vuepress" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Awesome VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://vuepress-community.netlify.app/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vuepress Community
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/langnang-package/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/langnang-package/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/langnang-package/function/" class="nav-link router-link-active">
+  Function
+</a></div><div class="nav-item"><a href="https://github.com/langnang-package/langnang-package" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Langnang" class="dropdown-title"><span class="title">Langnang</span> <span class="arrow down"></span></button> <button type="button" aria-label="Langnang" class="mobile-dropdown-title"><span class="title">Langnang</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://langnang.github.io/langnang" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Langnang
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://langnang-temp.github.io/langnang-temp" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Templates
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://langnang-package.github.io/langnang-package" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Packages
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue" class="dropdown-title"><span class="title">Vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="Vue" class="mobile-dropdown-title"><span class="title">Vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://cn.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vue
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://router.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vue Router
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://vuex.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vuex
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/vuepress/awesome-vuepress" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Awesome VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://vuepress-community.netlify.app/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Vuepress Community
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Function @Langnang/{Package}</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/langnang-package/function/_todo#algorithm" class="sidebar-link">Algorithm</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/langnang-package/function/_todo#sort" class="sidebar-link">Sort</a></li></ul></li><li><a href="/langnang-package/function/_todo#array" class="sidebar-link">Array</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#date" class="sidebar-link">Date</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#dom" class="sidebar-link">DOM</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#function" class="sidebar-link">Function</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#math" class="sidebar-link">Math</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#mobile" class="sidebar-link">Mobile</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#number" class="sidebar-link">Number</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#object" class="sidebar-link">Object</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#regexp" class="sidebar-link">RegExp</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/langnang-package/function/_todo#string" class="sidebar-link">String</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="function-langnang-package"><a href="#function-langnang-package" class="header-anchor">#</a> Function @Langnang/{Package}</h1> <h2 id="algorithm"><a href="#algorithm" class="header-anchor">#</a> Algorithm</h2> <h3 id="sort"><a href="#sort" class="header-anchor">#</a> Sort</h3> <p><code>bubble_sort(number_array)</code>冒泡排序
+<code>bucket_sort(number_array)</code>桶排序
+<code>counting_sort(number_array)</code>技术排序
+<code>heap_sort(number_array)</code>堆排序
+<code>insertion_sort(number_array)</code>插入排序
+<code>merge_sort(number_array)</code>归并排序
+<code>quick_sort(number_array)</code>快速排序
+<code>radix_sort(number_array)</code>基数排序
+<code>selection_sort(number_array)</code>选择排序
+<code>shell_sort(number_array)</code>希尔排序</p> <h2 id="array"><a href="#array" class="header-anchor">#</a> Array</h2> <p><code>array.prototype.copy_within(target[, start[, end]])</code>在数组内部，将一段元素序列拷贝到另一段元素序列上，覆盖原有的值。
+<code>array.prototype.entries()</code>返回一个数组迭代器对象，该迭代器会包含所有数组元素的键值对。
+<code>array_count_by(array, fn)</code>根据函数统计数组中值出现的次数
+<code>array_every()</code> <code>array_index_of(array, search_element[, from_index))</code>返回数组中第一个与指定值相等的元素的索引，如果找不到这样的元素，则返回 --
+<code>array_last_index_of(array, search_element[, from_index = arr.length)</code>返回数组中最后一个（从右边数第一个）与指定值相等的元素的索引，如果找不到这样的元素，则返回 -1
+<code>array_reverse()</code> <code>array_sort([compare_function(first_el,second_el)])</code>对数组元素进行排序，并返回当前数组。
+<code>is_array_every(array, callback(element[, index[, array]])[, this_arg])</code>如果数组中的每个元素都满足测试函数，则返回 true，否则返回 false。
+<code>is_array_every_equal(array)</code>检测数组的所有元素是否相等
+<code>is_array_none(array, fn)</code>检测数组的所有元素是否都不符合
+<code>is_array_some(array, fn)</code>检测数组的部分元素是否符合</p> <h2 id="date"><a href="#date" class="header-anchor">#</a> Date</h2> <p><code>date(...args)</code>创建 _date 对象
+<code>day(date)</code>月份中的第几天
+<code>day_of_week</code>周中的第几天
+<code>endof_day(date)</code>日期的最后一秒。-
+<code>first_dayof_month(date)</code>日期所在月的第一天
+<code>format(date, fm)</code>格式化日期世界
+<code>last_dayof_month(date)</code>日期所在月的最后一天
+<code>last_n_day(date)</code>日期前 _n 天
+<code>monday(date)</code>日期所在周的周一
+<code>next_days(date, n)</code>指定日期后 _n 天后
+<code>next_hours(date, n)</code>指定日期的 _n 时后
+<code>next_minutes(date, n)</code>指定日期的 _n 分后
+<code>next_months(date, n)</code>指定日期的 _n 月后
+<code>next_seconds(date, n)</code>指定日期的 _n 秒后
+<code>next_weeks(date, n)</code>指定日期的 _n 周后
+<code>next_years(date, n)</code>指定日期的 _n 年后
+<code>range</code>时间区段
+<code>start_of_day(date)</code>日期的第一秒。-
+<code>sunday(date)</code>日期所在周的周日
+<code>timeline(start, end)</code>返回起止时间中单位时间的连续时间数组
+<code>tomorrow(date)</code>日期的后一天
+<code>yesterday(date)</code>日期的前一天</p> <h2 id="dom"><a href="#dom" class="header-anchor">#</a> DOM</h2> <p><code>is_bottom_visible()</code>检测页面的底部是否可见
+<code>is_root()</code>检测文档根节点
+<code>is_visiblein_vie__wport(el)</code>检测元素在视区中是否可见
+<code>redirect(url)</code>重定向到指定 URL
+<code>scroll_position</code>返回当前页的滚动位置
+<code>scroll_to_top()</code>滚动至页面顶部
+<code>url()</code>返回当前 URL</p> <h2 id="function"><a href="#function" class="header-anchor">#</a> Function</h2> <p><code>apply(this_arg, [args_array])``function.prototype.apply(this_arg, [args_array])</code> <code>bind(this_arg, ...args)``function.prototype.bind(this_arg, ...args)</code> <code>call(this_arg, ...args)``function.prototype.call(this_arg, ...args)</code> <code>ajax(option)</code>异步 Java_script 和 X_m_l
+<code>debounce()</code>防抖触发高频事件后 n 秒内函数只会执行一次，如果 n 秒内高频事件再次被触发，则重新计算时间
+<code>for_each(object, callback)</code>从左向右遍历对象
+<code>for_each_right(object, callback)</code>从右向左遍历对象
+<code>for_each_right_array(object, callback)</code>从右向左遍历数组
+<code>query()</code>元素选择器
+<code>query_all()</code>元素选择器
+<code>s__wap(a, b)</code>交换两个元素的值
+<code>throttle()</code>节流高频事件触发，但在 n 秒内只会执行一次，所以节流会稀释函数的执行频率
+<code>time_taken(fn, ...args)</code>测量执行函数所用的时间
+<code>copy</code>拷贝，浅拷贝
+<code>deep_copy</code>深拷贝对象</p> <h2 id="math"><a href="#math" class="header-anchor">#</a> Math</h2> <p><code>factorial(number)</code>阶乘。所有小于及等于该数的正整数的积，并且 的阶乘为 自然数 n 的阶乘写作 n!。
+<code>euclidean_algorithm(a, b)</code>欧几里得算法。指用于计算两个非负整数 a，b 的最大公约数
+<code>areaof_circle(radius)</code>圆的面积
+<code>collatz(number)</code>_collatz 算法
+<code>digitize(num)</code>将数字转换为数字数组
+<code>distance(x1, y1, x2, y2)</code>两点间的距离
+<code>gcd(a, b)</code>计算两个数字之间最大的公共除数
+<code>is_divisible(dividend, divisor)</code>检测第一个数值是否可被另一个数值整除
+<code>is_even(number)</code>检测偶数
+<code>is_finite(number)</code>检测无穷大
+<code>is_integer(number)</code>检测整数
+<code>is_leap_year(number)</code>检测闰年
+<code>is_na_n(number)</code>检测非数值
+<code>is_odd(number)</code>检测奇数
+<code>is_safe_integer(number)</code>检测安全整数
+<code>leap_years(start_year, end_year)</code>返回范围内的所有闰年
+<code>max(...nums)</code>最大值
+<code>min(...nums)</code>最小值
+<code>PI()</code>圆周率
+<code>random_int(max = 1, min = 0)</code>随机整数
+<code>random_float(max = 1, min = 0)</code>随机数值
+<code>sum(...nums)</code>总值
+<code>thousands_separator(num)</code>千位分隔符</p> <h2 id="mobile"><a href="#mobile" class="header-anchor">#</a> Mobile</h2> <p><code>mobile_type()</code>返回手机系统类型。_android，_i_o_s；</p> <h2 id="number"><a href="#number" class="header-anchor">#</a> Number</h2> <p><code>is_number(obj)</code>检测数值</p> <h2 id="object"><a href="#object" class="header-anchor">#</a> Object</h2> <p><code>extend(target, parent)</code>混合属性到目标对象
+<code>is_bro_wser</code>检测浏览器环境
+<code>is_date(obj)</code>检测对象是否为日期时间
+<code>is_defined(obj)</code>检测对象是否已定义
+<code>is_dom()</code>检测对象是否是 DOM
+<code>is_function(obj)</code>检测对象是否是函数
+<code>is_object(obj)</code>检测对象
+<code>is_reg_exp(obj)</code>检测正则表达式
+<code>is_symbol(obj)</code>检测 Symbol
+<code>is_undefined(obj)</code>检测 Undefined
+<code>stringify(json)</code>JSON 转字符串</p> <h2 id="regexp"><a href="#regexp" class="header-anchor">#</a> RegExp</h2> <p><code>regs()</code>常用正则表达式
+<code>verify_email()</code>验证邮箱
+<code>verify_number()</code>验证数值</p> <h2 id="string"><a href="#string" class="header-anchor">#</a> String</h2> <p><code>capitalize()</code>将字符串的第一个字母大写
+<code>capitalize_every_word()</code>将字符串中每个单词的首字母大写
+<code>hex_to_rgba()</code>hex 十六进制颜色转 rgb 颜色。
+<code>is_palindrome(string)</code>检测回文字符串
+<code>is_string_of_array(string)</code>检测字符串数组
+<code>is_string_of_boolean(string)</code>检测字符串布尔值
+<code>is_string_of_number(string)</code>检测字符串数值
+<code>is_valid_parenthess()</code>检测是否是成对出现的括号。有效的括号；
+<code>longest___word(text)</code>返回一段话中最长的单词
+<code>nb()</code>_n_b
+<code>random_string(length)array)</code>随机字符串
+<code>rate()</code>评分字符串星星
+<code>remove_duplicates(string)</code>移除字符串中所有相邻重复项
+<code>string_reverse(string)</code>翻转字符串
+<code>rgb_to_hex()</code>rgb 颜色转 hex 十六进制颜色。
+<code>sb()</code>S_b
+<code>string_to_json(string)</code>字符串转 J_s_o_n
+<code>url_params([url = __windo__w.location.hr)</code>返回当前 _u_r_l 中的参数对象
+<code>uuid()</code>通用唯一识别码（_universally _unique _identifier）</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">9/24/2022, 10:16:51 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/langnang-package/assets/js/app.d8e54a48.js" defer></script><script src="/langnang-package/assets/js/3.757739a0.js" defer></script><script src="/langnang-package/assets/js/15.9e205725.js" defer></script>
+  </body>
+</html>
