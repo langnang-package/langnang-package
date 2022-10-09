@@ -1,5 +1,11 @@
 # Function @Langnang/{Package}
 
+- get
+- post
+- put
+- delete
+- ajax
+
 ## Algorithm
 
 ### Sort

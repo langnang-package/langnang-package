@@ -6,8 +6,29 @@
 
 **语法**
 
-`array_concat(array, value, value, ...[, value_n]]])`
+`array_concat(array, array_1, array_2, ...[, value_n]]])`
 
 **参数**
 
+- `array`: 需要合并的数组
+- `array_n`: 需要合并的数组
+
 **返回值**
+
+合并成的新数组
+
+**示例**
+
+```js
+array_concat([], [1]); // [1]
+array_concat([], [1, undefined]); // [1, undefined]
+array_concat([], [1, undefined, null]); // [1, undefined, null]
+```
+
+**实现**
+
+- [@langnang/js-func]()
+
+**参考**
+
+- [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)

@@ -4,5 +4,5 @@ module.exports = {
    * @type Boolean
    * @default undefined
    */
-  lineNumbers: true,
-}
+  // lineNumbers: true,
+};

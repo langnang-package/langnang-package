@@ -27,7 +27,7 @@ module.exports = {
       { text: "Function", link: "/function/" },
       // { text: "CSS", link: "/css/" },
       // { text: "JavaScript", link: "/javascript/" },
-      // { text: "UI", link: "/ui/" },
+      { text: "UI", link: "/ui/" },
       // { text: "PHP", link: "/php/" },
       {
         text: "GitHub",

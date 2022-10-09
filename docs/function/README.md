@@ -4,4 +4,5 @@ sidebarDepth: 2
 
 # Function
 
-[JavaScript]() | [PHP]()
+[![](https://skillicons.dev/icons?i=js)]()
+[![](https://skillicons.dev/icons?i=php)]()
