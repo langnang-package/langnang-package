@@ -4,32 +4,31 @@ module.exports = {
    * @type String
    * @default /
    */
-  base: '/langnang-package/',
+  base: "/langnang-package/",
   /**
    * 网站的标题，它将会被用作所有页面标题的前缀，同时，默认主题下，它将显示在导航栏（navbar）上。
    * @type String
    * @default undefined
    */
-  title: 'Langnang Package',
+  title: "Langnang Package",
   /**
    * 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中。
    * @type String
    * @default undefined
    */
-  description: 'Welcome to Packages of Langnang',
+  description: "Welcome to Packages of Langnang",
   /**
    * 额外的需要被注入到当前页面的 HTML <head> 中的标签，每个标签都可以以 [tagName, { attrName: attrValue }, innerHTML?] 的格式指定，
    * @type Array
    * @default []
    */
-  head: [
-  ],
+  head: [],
   /**
    * 指定用于 dev server 的主机名。
    * @type String
    * @default 0.0.0.0
    */
-  host: '0.0.0.0',
+  host: "0.0.0.0",
   /**
    * 指定 dev server 的端口。
    * @type Number
@@ -42,13 +41,20 @@ module.exports = {
    * @type Object|Array
    * @default undefined
    */
-  plugins: require('./plugins/index.js'),
+  plugins: require("./plugins/index.js"),
   /**
    * 主题配置
    */
-  ...require('./theme.js'),
+  ...require("./theme.js"),
   /**
    * Markdown 配置
    */
-  markdown: require('./markdown.js'),
-}
+  markdown: require("./markdown.js"),
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "@langanng": ".",
+      },
+    },
+  },
+};

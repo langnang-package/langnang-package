@@ -1,12 +1,14 @@
-## is_null
+# is_null
 
-> 检测 Null
+检测 Null
 
 ![](https://img.shields.io/badge/-Object-blue)
 
 **语法**
 
-`is_null(obj)`
+```js
+is_null(obj);
+```
 
 **参数**
 

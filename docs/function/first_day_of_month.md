@@ -1,12 +1,14 @@
-## first_day_of_month
+# first_day_of_month
 
-> 日期所在月的第一天
+日期所在月的第一天
 
 ![](https://img.shields.io/badge/-Date-blue)
 
 **语法**
 
-`first_day_of_month(date)`
+```js
+first_day_of_month(date);
+```
 
 **参数**
 

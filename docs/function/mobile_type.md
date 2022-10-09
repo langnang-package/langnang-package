@@ -1,12 +1,14 @@
-## mobile_type
+# mobile_type
 
-> 返回手机系统类型。Android，IOS。
+返回手机系统类型。Android，IOS。
 
 ![](https://img.shields.io/badge/-Mobile-blue)
 
 **语法**
 
-`mobile_type()`
+```js
+mobile_type();
+```
 
 **参数**
 

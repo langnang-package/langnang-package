@@ -1,12 +1,14 @@
-## second
+# second
 
-> 日期的秒钟
+日期的秒钟
 
 ![](https://img.shields.io/badge/-Date-blue)
 
 **语法**
 
-`second(date)`
+```js
+second(date);
+```
 
 **参数**
 

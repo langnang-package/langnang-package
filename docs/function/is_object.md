@@ -1,12 +1,14 @@
-## is_object
+# is_object
 
-> 检测对象
+检测对象
 
 ![](https://img.shields.io/badge/-Object-blue)
 
 **语法**
 
-`is_object(obj)`
+```js
+is_object(obj);
+```
 
 **参数**
 

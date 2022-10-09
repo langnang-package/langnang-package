@@ -1,12 +1,14 @@
-## is_false
+# is_false
 
-> 检测 false
+检测 false
 
 ![](https://img.shields.io/badge/-Boolean-blue)
 
 **语法**
 
-`is_false(boolean)`
+```js
+is_false(boolean);
+```
 
 **参数**
 

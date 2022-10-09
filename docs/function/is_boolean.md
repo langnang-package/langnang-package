@@ -1,13 +1,15 @@
-## is_boolean
+# is_boolean
 
-> 检测对象是否为布尔值
+检测对象是否为布尔值
 
 ![](https://img.shields.io/badge/-Object-blue)
 ![](https://img.shields.io/badge/-Boolean-blue)
 
 **语法**
 
-`is_boolean(obj)`
+```js
+is_boolean(obj);
+```
 
 **参数**
 

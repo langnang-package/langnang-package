@@ -1,12 +1,14 @@
-## is_number
+# is_number
 
-> 检测数值
+检测数值
 
 ![](https://img.shields.io/badge/-Number-blue)
 
 **语法**
 
-`is_number(obj)`
+```js
+is_number(obj);
+```
 
 **参数**
 

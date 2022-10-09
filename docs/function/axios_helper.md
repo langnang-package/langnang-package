@@ -1,12 +1,14 @@
-## axios_helper
+# axios_helper
 
-> Axios 封装
+Axios 封装
 
 ![](https://img.shields.io/badge/-Function-blue)
 
 **语法**
 
-`axios_helper(axios[, config])`
+```js
+axios_helper(axios[, config])
+```
 
 **参数**
 

@@ -1,12 +1,14 @@
-## array_pop
+# array_pop
 
-> 删除数组的最后一个元素，并返回这个元素。
+删除数组的最后一个元素，并返回这个元素。
 
 ![](https://img.shields.io/badge/-Array-blue)
 
 **语法**
 
-`array_pop(array)`
+```js
+array_pop(array);
+```
 
 **参数**
 

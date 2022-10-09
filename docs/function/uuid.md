@@ -1,12 +1,14 @@
-## uuid
+# uuid
 
-> 通用唯一识别码（Universally Unique Identifier）
+通用唯一识别码（Universally Unique Identifier）
 
 ![](https://img.shields.io/badge/-String-blue)
 
 **语法**
 
-`uuid()`
+```js
+uuid();
+```
 
 **参数**
 

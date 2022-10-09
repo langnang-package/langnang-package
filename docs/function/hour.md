@@ -1,12 +1,14 @@
-## hour
+# hour
 
-> 返回日期的小时
+返回日期的小时
 
 ![](https://img.shields.io/badge/-Date-blue)
 
 **语法**
 
-`hour(date)`
+```js
+hour(date);
+```
 
 **参数**
 

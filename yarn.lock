@@ -1006,6 +1006,11 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@langnang/js-func@^0.0.1-beta-0.1":
+  version "0.0.1-beta-0.1"
+  resolved "https://registry.yarnpkg.com/@langnang/js-func/-/js-func-0.0.1-beta-0.1.tgz#0b65663d0c60d13a841935a4e99a75b4292047f5"
+  integrity sha512-6k3LpooTolUo9wbPmMdrmZ9wJlRedTZLYTpW8XWPQpzyR4wiYYg5LXsG1iygb2TXakJEvZvOp5cGUKmPQbTSUg==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -8890,6 +8895,11 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
+
+underscore@^1.13.6:
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.6.tgz#04786a1f589dc6c09f761fc5f45b89e935136441"
+  integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"

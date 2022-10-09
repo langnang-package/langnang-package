@@ -72,33 +72,33 @@ module.exports = [
   /**
    * Merge Markdown files in a single Markdown
    */
-  [
-    "vuepress-plugin-merge-pages",
-    {
-      bundles: [
-        {
-          path: "/function/",
-          name: "Function", // optional
-          filter: (pages) => {
-            // optional
-            return pages.filter(
-              ({ path }) =>
-                path.includes("/function/") && !path.includes("/function/_")
-            );
-          },
-          mergePages: (pages) => {
-            // optional
-            const pageBreak = '<hr class="page-break" />\n\n';
-            // const initialValue = `\n\n${pageBreak}`;
-            const content = pages.reduce((acc, current) => {
-              return `${acc}${current.content}\n\n${pageBreak}`;
-            }, "");
-            return content;
-          },
-        },
-      ],
-    },
-  ],
+  // [
+  //   "vuepress-plugin-merge-pages",
+  //   {
+  //     bundles: [
+  //       {
+  //         path: "/function/",
+  //         name: "Function", // optional
+  //         filter: (pages) => {
+  //           // optional
+  //           return pages.filter(
+  //             ({ path }) =>
+  //               path.includes("/function/") && !path.includes("/function/_")
+  //           );
+  //         },
+  //         mergePages: (pages) => {
+  //           // optional
+  //           const pageBreak = '<hr class="page-break" />\n\n';
+  //           // const initialValue = `\n\n${pageBreak}`;
+  //           const content = pages.reduce((acc, current) => {
+  //             return `${acc}${current.content}\n\n${pageBreak}`;
+  //           }, "");
+  //           return content;
+  //         },
+  //       },
+  //     ],
+  //   },
+  // ],
   /**
    * Generate dynamic VuePress pages from JSON Schemas.
    */

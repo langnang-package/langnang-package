@@ -1,12 +1,14 @@
-## is_symbol
+# is_symbol
 
-> 检测 Symbol
+检测 Symbol
 
 ![](https://img.shields.io/badge/-Object-blue)
 
 **语法**
 
-`is_symbol(obj)`
+```js
+is_symbol(obj);
+```
 
 **参数**
 
