@@ -1,4 +1,4 @@
-# Function @Langnang/{Package}
+## Function @Langnang/{Package}
 
 - get
 - post
@@ -6,9 +6,9 @@
 - delete
 - ajax
 
-## Algorithm
+### Algorithm
 
-### Sort
+#### Sort
 
 `bubble_sort(number_array)`冒泡排序
 `bucket_sort(number_array)`桶排序
@@ -21,7 +21,7 @@
 `selection_sort(number_array)`选择排序
 `shell_sort(number_array)`希尔排序
 
-## Array
+### Array
 
 `array.prototype.copy_within(target[, start[, end]])`在数组内部，将一段元素序列拷贝到另一段元素序列上，覆盖原有的值。
 `array.prototype.entries()`返回一个数组迭代器对象，该迭代器会包含所有数组元素的键值对。
@@ -36,8 +36,7 @@
 `is_array_none(array, fn)`检测数组的所有元素是否都不符合
 `is_array_some(array, fn)`检测数组的部分元素是否符合
 
-
-## Date
+### Date
 
 `date(...args)`创建 \_date 对象
 `format(date, fm)`格式化日期世界
@@ -56,7 +55,7 @@
 `tomorrow(date)`日期的后一天
 `yesterday(date)`日期的前一天
 
-## DOM
+### DOM
 
 `is_bottom_visible()`检测页面的底部是否可见
 `is_root()`检测文档根节点
@@ -66,11 +65,11 @@
 `scroll_to_top()`滚动至页面顶部
 `url()`返回当前 URL
 
-## Function
+### Function
 
-`apply(this_arg, [args_array])``function.prototype.apply(this_arg, [args_array])`
-`bind(this_arg, ...args)``function.prototype.bind(this_arg, ...args)`
-`call(this_arg, ...args)``function.prototype.call(this_arg, ...args)`
+` apply(this_arg, [args_array])``function.prototype.apply(this_arg, [args_array]) `
+` bind(this_arg, ...args)``function.prototype.bind(this_arg, ...args) `
+` call(this_arg, ...args)``function.prototype.call(this_arg, ...args) `
 `ajax(option)`异步 Java_script 和 X_m_l
 `debounce()`防抖触发高频事件后 n 秒内函数只会执行一次，如果 n 秒内高频事件再次被触发，则重新计算时间
 `for_each(object, callback)`从左向右遍历对象
@@ -84,7 +83,7 @@
 `copy`拷贝，浅拷贝
 `deep_copy`深拷贝对象
 
-## Math
+### Math
 
 `factorial(number)`阶乘。所有小于及等于该数的正整数的积，并且 的阶乘为 自然数 n 的阶乘写作 n!。
 `euclidean_algorithm(a, b)`欧几里得算法。指用于计算两个非负整数 a，b 的最大公约数
@@ -104,14 +103,13 @@
 `PI()`圆周率
 `thousands_separator(num)`千位分隔符
 
-## Mobile
+### Mobile
 
-
-## Number
+### Number
 
 `is_nan(number)`检测非数值
 
-## Object
+### Object
 
 `extend(target, parent)`混合属性到目标对象
 `is_browser`检测浏览器环境
@@ -120,14 +118,13 @@
 `is_reg_exp(obj)`检测正则表达式
 `stringify(json)`JSON 转字符串
 
-
-## RegExp
+### RegExp
 
 `regs()`常用正则表达式
 `verify_email()`验证邮箱
 `verify_number()`验证数值
 
-## String
+### String
 
 `capitalize()`将字符串的第一个字母大写
 `capitalize_every_word()`将字符串中每个单词的首字母大写

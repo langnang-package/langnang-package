@@ -1,4 +1,4 @@
-# array_head
+## array_head
 
 返回数组的前 n 个元素
 

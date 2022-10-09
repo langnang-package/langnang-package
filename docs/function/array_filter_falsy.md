@@ -1,4 +1,4 @@
-# array_filter_falsy
+## array_filter_falsy
 
 过滤数组中的虚假值，false、null、undefined
 

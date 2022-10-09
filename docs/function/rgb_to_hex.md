@@ -1,4 +1,4 @@
-# rgb_to_hex
+## rgb_to_hex
 
 rgb 颜色转 hex 十六进制颜色。
 

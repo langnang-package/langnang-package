@@ -1,7 +1,16 @@
+---
+sidebarDepth: 2
+---
+
 # Function
 
 [![](https://skillicons.dev/icons?i=js)]()
 [![](https://skillicons.dev/icons?i=php)]()
+
+<!-- | Langnang/js-func | Lodash | Underscore |
+| ---------------- | ------ | ---------- |
+| array_concat     | concat |            |
+| array_filter     | filter | filter     |
 
 ## 参考
 
@@ -14,4 +23,4 @@
 - [mout](http://moutjs.com/)
 - [rambda](https://selfrefactor.github.io/rambda)
 - [fxts](https://fxts.dev/)
-- [PHP](https://www.php.net/)
+- [PHP](https://www.php.net/) -->

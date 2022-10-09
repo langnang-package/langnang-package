@@ -1,4 +1,4 @@
-# array_flatten
+## array_flatten
 
 展平数组到指定深度
 

@@ -1,4 +1,4 @@
-# is_primitive
+## is_primitive
 
 检测原始数据类型。字符串、数值、布尔值、Symbol。
 

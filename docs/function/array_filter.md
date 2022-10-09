@@ -1,4 +1,4 @@
-# array_filter
+## array_filter
 
 将所有在过滤函数中返回 true 的数组元素放进一个新数组中并返回。
 

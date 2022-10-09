@@ -1,4 +1,4 @@
-# array_includes
+## array_includes
 
 判断当前数组是否包含某指定的值，如果是返回 true，否则返回 false。
 

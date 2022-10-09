@@ -1,4 +1,4 @@
-# first_day_of_month
+## first_day_of_month
 
 日期所在月的第一天
 

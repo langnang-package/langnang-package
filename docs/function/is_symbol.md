@@ -1,4 +1,4 @@
-# is_symbol
+## is_symbol
 
 检测 Symbol
 

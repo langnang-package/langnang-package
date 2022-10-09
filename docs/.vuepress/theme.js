@@ -71,7 +71,8 @@ module.exports = {
      * @type Array | Object
      * @default undefined
      */
-    sidebar: [require("../function/_sidebar.js")],
+    // sidebar: [require("../function/_sidebar.js")],
+    sidebar: "auto",
   },
   /**
    * 你可以通过 themeConfig.lastUpdated 选项来获取每个文件最后一次 git 提交的 UNIX 时间戳(ms)，同时它将以合适的日期格式显示在每一页的底部：

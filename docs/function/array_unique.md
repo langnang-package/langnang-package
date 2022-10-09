@@ -1,4 +1,4 @@
-# array_unique
+## array_unique
 
 返回数组中的所有不同值。去重；
 

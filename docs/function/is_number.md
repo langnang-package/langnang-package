@@ -1,4 +1,4 @@
-# is_number
+## is_number
 
 检测数值
 

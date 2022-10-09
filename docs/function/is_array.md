@@ -1,4 +1,4 @@
-# is_array
+## is_array
 
 检测对象是否为数组
 

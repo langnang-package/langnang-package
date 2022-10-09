@@ -51,10 +51,6 @@ module.exports = {
    */
   markdown: require("./markdown.js"),
   configureWebpack: {
-    resolve: {
-      alias: {
-        "@langanng": ".",
-      },
-    },
+    resolve: {},
   },
 };

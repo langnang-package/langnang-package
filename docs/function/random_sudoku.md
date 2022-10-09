@@ -1,4 +1,4 @@
-# random_sudoku
+## random_sudoku
 
 返回随机九宫格数独
 

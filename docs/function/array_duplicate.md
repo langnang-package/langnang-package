@@ -1,4 +1,4 @@
-# array_duplicate
+## array_duplicate
 
 返回数组中的重复值
 

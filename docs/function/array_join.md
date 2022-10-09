@@ -1,4 +1,4 @@
-# array_join
+## array_join
 
 连接所有数组元素组成一个字符串。
 

@@ -1,4 +1,4 @@
-# array_count
+## array_count
 
 统计数组中值出现的次数
 
@@ -27,6 +27,8 @@ array_count([1, 1, 1, 1, 3, 4, 5, 6], 6); // 1
 
 <CodeSwitcher :languages="{ln:'Langnang',lo:'Lodash',un:'Underscore'}">
 <template v-slot:ln>
+
+`@langnang/js-func/src/array_count.ts`
 
 <<< @/node_modules/@langnang/js-func/src/array_count.ts
 

@@ -1,4 +1,4 @@
-# is_boolean
+## is_boolean
 
 检测对象是否为布尔值
 

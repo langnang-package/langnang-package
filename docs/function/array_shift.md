@@ -1,4 +1,4 @@
-# array_shift
+## array_shift
 
 删除数组的第一个元素，并返回这个元素。
 

@@ -1,4 +1,4 @@
-# object_type
+## object_type
 
 返回对象的数据类型
 

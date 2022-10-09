@@ -1,4 +1,4 @@
-# mobile_type
+## mobile_type
 
 返回手机系统类型。Android，IOS。
 
