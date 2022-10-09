@@ -22,3 +22,17 @@ array_foreach(array, callback(element[, index[, array]])[, this_arg])
 ```
 
 **参考**
+
+**实现**
+
+<CodeSwitcher :languages="{ln:'Langnang',lo:'Lodash',un:'Underscore'}">
+<template v-slot:ln>
+
+</template>
+<template v-slot:lo>
+
+</template>
+<template v-slot:un>
+
+</template>
+</CodeSwitcher>

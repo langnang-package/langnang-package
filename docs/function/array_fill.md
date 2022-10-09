@@ -39,3 +39,17 @@ array_fill(array, 6); // [6, 6, 6, 6]
 **参考**
 
 - [Array.prototype.fill() - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
+
+**实现**
+
+<CodeSwitcher :languages="{ln:'Langnang',lo:'Lodash',un:'Underscore'}">
+<template v-slot:ln>
+
+</template>
+<template v-slot:lo>
+
+</template>
+<template v-slot:un>
+
+</template>
+</CodeSwitcher>

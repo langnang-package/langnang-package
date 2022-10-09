@@ -21,3 +21,17 @@ first_day_of_month(date);
 ```
 
 **参考**
+
+**实现**
+
+<CodeSwitcher :languages="{ln:'Langnang',lo:'Lodash',un:'Underscore'}">
+<template v-slot:ln>
+
+</template>
+<template v-slot:lo>
+
+</template>
+<template v-slot:un>
+
+</template>
+</CodeSwitcher>
