@@ -6,7 +6,9 @@
 
 **语法**
 
-`array_concat(array, array_1, array_2, ...[, value_n]]])`
+```js
+array_concat(array, array_1, array_2, ...[, value_n]]])
+```
 
 **参数**
 
@@ -27,8 +29,8 @@ array_concat([], [1, undefined, null]); // [1, undefined, null]
 
 **实现**
 
-- [@langnang/js-func]()
+- [@langnang/js-func](https://github.com/langnang-package/js-func/blob/master/src/array_concat.ts)
 
 **参考**
 
-- [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+- [Array.prototype.concat() - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)

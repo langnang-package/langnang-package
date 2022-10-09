@@ -5,9 +5,16 @@
 ![](https://img.shields.io/badge/-Array-blue)
 
 **语法**
-``
-`array_includes(array, value_to_find[, from_index])`
+`` `array_includes(array, value_to_find[, from_index])`
 
 **参数**
 
 **返回值**
+
+**示例**
+
+```js
+
+```
+
+**参考**

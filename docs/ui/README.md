@@ -25,6 +25,13 @@
 - Label 标签
 - List 列表
 
+## Layout
+
+- Grid 栅格
+- Center 居中
+- Left 居左
+- Right 居右
+
 ## Utils
 
 - Border 边框

@@ -3,6 +3,7 @@
 ```scss
 .grid,
 .grid-fluid {
+  display: flex;
   .row {
     .col-1,
     /*...,*/
